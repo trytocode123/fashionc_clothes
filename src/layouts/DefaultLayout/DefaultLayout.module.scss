@@ -1,0 +1,32 @@
+:root {
+    --primary: #fe2c55;
+    --black: #000;
+    --white: #fff;
+    --secondary-400: #c5a356;
+    --secondary-500: #ab8a37;
+    --primary-700: #5f4c49;
+    --text-color: #161823;
+    --font-family: Inter;
+    --primary-950: #171212;
+    //Default layout
+    --default-layout-header-hight: 60px;
+    --default-layout-width: 1150px;
+    --default-layout-horizontal-spacer: 24px;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+    gap: 30px;
+    background: var(--secondary-50, #faf5eb);
+    margin-bottom: -24px;
+}
+
+.container {
+    padding: 0 34px;
+    width: 100%;
+    min-height: 3350px;
+}
